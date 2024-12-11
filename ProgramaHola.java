@@ -6,13 +6,23 @@ public class ProgramaHola{
         System.out.print("Hola, cula es tu nombre?: ");
             String nombre = in.nextLine();
         
-        System.out.println("Hombre "+ nombre + ", que tal!");
+        nom(nombre);
 
-        System.out.print("Dime tu edad:");
+        System.out.print("Dime tu edad: ");
             int edad = in.nextInt();
     
-        System.out.println("Tienes "+ edad + " años");
+        ed(edad);
 
         in.close();
+    }//cierre main
+
+    static void nom(String nombre){
+        System.out.println("Hombre "+nombre+ " , que tal estas!");
+
     }
-}
+    static void ed(int nombre){
+        System.out.println("Tienes "+nombre+" años");
+
+    }
+
+}//cierre class

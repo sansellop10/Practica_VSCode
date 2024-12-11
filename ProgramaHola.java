@@ -6,7 +6,7 @@ public class ProgramaHola{
         System.out.print("Hola, cula es tu nombre?: ");
             String nombre = in.nextLine();
         
-        System.out.println("Hola "+ nombre + " !");
+        System.out.println("Hombre "+ nombre + ", que tal!");
 
         in.close();
     }

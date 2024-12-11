@@ -8,6 +8,11 @@ public class ProgramaHola{
         
         System.out.println("Hombre "+ nombre + ", que tal!");
 
+        System.out.print("Dime tu edad:");
+            int edad = in.nextInt();
+    
+        System.out.println("Tienes "+ edad + " años");
+
         in.close();
     }
 }
